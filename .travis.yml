@@ -18,5 +18,7 @@ addons:
     packages:
       - cmake
 
-after_install:
+install:
   - cmake --version
+
+script:
